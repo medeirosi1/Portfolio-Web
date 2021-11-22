@@ -1,9 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-image: url(header.jfif);
+    height: 80px;
+}
+
+.solar {
+    position: absolute;
+    width: 60px;
+    margin: 10px 0 0 50px;
+    background-color: white;
+    border-radius: 200px;
+}
+
+.direcionameto {
+    list-style: none;
+}
+
+
+
+.links {
+    text-decoration: none;
+    background-color: rgb(91, 184, 241);
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0 0 200px;
+    padding: 10px 10px;
+    list-style: none;
+}
+
+.links:hover {
+    transform: scale(1.1);
+
+}
+
+body {
+    background-image: url(backgrouddestiny.jpg);   
+}
+
+
+
 .Nome {
+    padding: 10px 10px;
+    margin: 50px 0 20px 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.eu {
+    padding: 10px 10px;
+    margin: 10px 600px;
+    border: 2px solid black;  
+    border-radius: 10px;
+    background-color: white;
     text-align: center;
 }
 
+.eu1 {
+    padding: 10px 10px;
+    margin: 0 600px 120px 600px;
+    border: 2px solid black;  
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+
+
 .foto {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto ;
     width: 300px;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+
+.titulo2 {
+    margin: 0 600px;
+    padding: 10px 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text {
+    display: inline-block;
+    margin: 0 300px 100px 300px;
+    padding: 10px 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.rodape {
+    background-image: url(footer.png);
+    height: 300px;
+}
+
+.linkedin {
+    position: absolute;
+    width: 100px;
+    margin: 40px 660px 0 660px;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
 }
