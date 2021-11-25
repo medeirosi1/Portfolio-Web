@@ -4,10 +4,6 @@
 }
 
 
-header {
-    background-image: url(header.jfif);
-    height: 80px;
-}
 
 .solar {
     position: absolute;
@@ -17,37 +13,108 @@ header {
     border-radius: 200px;
 }
 
-.direcionameto {
+
+.box ul {
+    background-image: url(headersteins.jpg);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
+    margin: 0;
 }
 
+/*
+.box #sobre, #trybe {
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 10px;
+} */
 
+#sobre {
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 10px;
+}
 
+#sobre:hover {
+    background-color: yellowgreen;
+    font-size: 28px;
+}
+
+#trybe {
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+#trybe:hover {
+    background-color: yellowgreen;
+    font-size: 28px;
+}
+
+/*
 .links {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 80px;
+    margin: 0 auto;
     text-decoration: none;
     background-color: rgb(91, 184, 241);
     border-radius: 20px;
     color: white;
-    display: inline-block;
     font-size: 25px;
     font-weight: bold;
-    margin: 15px 0 0 200px;
     padding: 10px 10px;
-    list-style: none;
-}
+} 
 
 .links:hover {
     transform: scale(1.1);
 
-}
+} 
+
+.trybe {
+    flex: 1;
+    text-decoration: none;
+    background-color: rgb(91, 184, 241);
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0 0 200px;
+    padding: 10px 10px;
+    
+} */
 
 body {
-    background-image: url(backgrouddestiny.jpg);   
+    background-image: url(backgroudsteinsgate.jpg);
+    background-size: cover;
+    background-position: 110%;   
 }
 
-
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .Nome {
+    font-family: monospace, sans-serif;
     padding: 10px 10px;
     margin: 50px 0 20px 0;
     color: white;
@@ -55,63 +122,171 @@ body {
     text-align: center;
     
 }
-.eu {
-    padding: 10px 10px;
-    margin: 10px 600px;
-    border: 2px solid black;  
-    border-radius: 10px;
-    background-color: white;
-    text-align: center;
-}
 
-.eu1 {
-    padding: 10px 10px;
-    margin: 0 600px 120px 600px;
-    border: 2px solid black;  
-    border-radius: 10px;
-    background-color: white;
-    text-align: center;
-}
+#okabe {
+    position: absolute;
+    width: 200px;    
+    margin: 100px 0 0 650px;
+ }
+
+ #okabe:hover {
+    transform: scale(1.1); 
+ }
 
 
+
+ #balao {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    width: 250px;    
+    margin: 40px 0 0 1150px;
+    z-index: 1;
+ }
+
+.teste {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: absolute;
+    width: 200px;    
+    margin: 110px 0 0 1185px;
+    color: red;
+    font-weight: bold;
+    font-family:'Comic Neue', cursive;
+    font-size: 20px;
+    z-index: 2;
+ }
+
+#balao:hover {
+    transform: scale(1.1);
+ }
 
 .foto {
-    display: block;
-    margin: 0 auto ;
+    margin: 0  auto;
     width: 300px;
     border: 2px solid black;
     border-radius: 150px;
 }
 
-.titulo2 {
-    margin: 0 600px;
-    padding: 10px 10px;
+.paragrafos {
+    display: flex;
+    height: 10px;
+    width: 540px;
+    margin: 10px auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
-    text-align: center;
 }
 
-.text {
+.paragrafos img {
+    position: absolute;
+    width: 1%;
+    padding: 0 10px;
+}
+
+#frase {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    color: red;
+    text-decoration: solid;
+}
+
+/* .paragrafos {
+    position: relative;
+    text-align: center;
     display: inline-block;
-    margin: 0 300px 100px 300px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border: 2px solid black;  
+    border-radius: 10px;
+    background-color: white;
+} */
+
+
+.titulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 200px;
+    margin: 120px auto 0 auto;
     padding: 10px 10px;
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
 }
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 600px;
+    margin: 0 auto 100px auto;
+    padding: 10px 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.tituloh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 600px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto 100px auto;
+    padding: 10px 10px;
+}
+
 
 .rodape {
-    background-image: url(footer.png);
-    height: 300px;
+    display: flex;
+    align-items: center;
+    background-image: url(steinsgatefooter.jpg);
+    height: 200px;
+    width: 100%;
 }
 
 .linkedin {
     position: absolute;
-    width: 100px;
-    margin: 40px 660px 0 660px;
+    width: 6%;
+    margin: 0 300px 0 600px;
+    
 }
 
 .linkedin:hover {
+    transform: scale(1.1);
+}
+
+#githublogo {
+    position: absolute;
+    width: 6%;
+    margin: 0 400px 0 900px;
+}
+
+#githublogo:hover {
     transform: scale(1.1);
 }
